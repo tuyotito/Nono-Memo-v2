@@ -1,0 +1,13 @@
+NONO MEMO - projet Android (application autonome, 100 % hors ligne)
+
+Le jeu est dans app/src/main/assets/index.html : aucune connexion internet,
+aucune permission Android. Pour changer le jeu, remplacez ce fichier.
+
+CONSTRUIRE L'APK
+A) Android Studio : Fichier > Ouvrir ce dossier, attendre la synchronisation,
+   puis Build > Build APK(s). Fichier : app/build/outputs/apk/debug/app-debug.apk
+B) Sans rien installer : deposer ce dossier dans un depot GitHub ; l'onglet
+   "Actions" > "Build APK" produit l'APK a telecharger.
+
+INSTALLER : copier l'APK sur le telephone/tablette, l'ouvrir, autoriser
+"sources inconnues" si demande.
